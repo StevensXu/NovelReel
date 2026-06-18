@@ -2,7 +2,7 @@
 
 # NovelReel
 
-### Turn web novels into cinematic videos with AI
+### Turn web novels into cinematic videos with LLMs and visual generative models
 
 An open-source pipeline for adapting long-form web fiction into scripts,
 consistent characters, visual shots, narration, and finished videos.
@@ -16,22 +16,26 @@ consistent characters, visual shots, narration, and finished videos.
 
 ## Introduction
 
-**NovelReel** is an AI movie production toolkit designed for web novels.
-It transforms chapters into structured scenes, maintains character and visual
-consistency, generates shots and voices, and assembles everything into a
-complete video.
+**NovelReel** is an AI short-drama production pipeline designed specifically
+for web novels. It transforms novels into complete AI short dramas while
+maintaining consistent characters (appearance and voice), props, and scenes.
+The entire production process requires no manual intervention.
 
-The project is built for creators and developers who want a reproducible,
-editable, and extensible novel-to-video workflow.
+### Core Features
 
-### Highlights
+#### 1. Automated Web Novel to AI Short Drama
 
-- Long-form novel and chapter parsing
-- Automatic screenplay and shot-list generation
-- Consistent character and scene design
-- Image-to-video and text-to-video generation
-- Multi-character dialogue, narration, music, and sound effects
-- Automated editing, subtitles, and final video export
+- Automatically extracts characters, props, and scenes, then generates their
+  corresponding reference images
+- Preserves character, prop, and scene consistency across chapters
+- Automatically structures screenplays and generates videos with narrative
+  continuity
+
+#### 2. Intelligent Voice Generation
+
+- Assigns a consistent voice to each character
+- Calibrates and preserves character voice consistency across shots
+
 
 ## Workflow
 
