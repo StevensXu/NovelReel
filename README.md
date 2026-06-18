@@ -101,23 +101,6 @@ Click a preview image to open the video with audio.
     </td>
   </tr>
 </table>
-
-## Roadmap
-
-- [ ] Novel parsing and knowledge base
-- [ ] Screenplay and storyboard generation
-- [ ] Character consistency pipeline
-- [ ] Voice and audio generation
-- [ ] Automated video editing
-- [ ] Web interface and local deployment
-
-## Contributing
-
-NovelReel is at an early stage. Issues, ideas, documentation improvements,
-model integrations, and pull requests are welcome.
-
-## License
-
 This project will be released under an open-source license. Please verify that
 you have permission to use any source novel, generated media, voices, music,
 and third-party models included in your production.
