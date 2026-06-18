@@ -136,3 +136,33 @@ flowchart LR
     <td align="center"><a href="https://youtu.be/AsaULb0MdGM"><img src="assets/youtube_thumbnails/AsaULb0MdGM.jpg" width="360" alt="在 YouTube 观看星辰变第二章"></a></td>
   </tr>
 </table>
+
+## 角色音色一致性对比
+
+对同一角色跨镜头、跨章节的音色进行校准，使角色声音在连续剧情中保持一致。
+
+### 对比例子 1
+
+<table>
+  <tr>
+    <th align="center">角色音色一致化前</th>
+    <th align="center">角色音色一致化后</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://youtu.be/LO2K_PX2f_s"><img src="assets/youtube_thumbnails/LO2K_PX2f_s.jpg" width="420" alt="观看角色音色一致化前的视频"></a></td>
+    <td align="center"><a href="https://youtu.be/9-AosqKD1IE"><img src="assets/youtube_thumbnails/9-AosqKD1IE.jpg" width="420" alt="观看角色音色一致化后的视频"></a></td>
+  </tr>
+</table>
+
+### 对比例子 2
+
+<table>
+  <tr>
+    <th align="center">角色音色一致化前</th>
+    <th align="center">角色音色一致化后</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://youtu.be/nrP3PAaMTfA"><img src="assets/youtube_thumbnails/nrP3PAaMTfA.jpg" width="420" alt="观看角色音色一致化前的视频"></a></td>
+    <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="420" alt="观看角色音色一致化后的视频"></a></td>
+  </tr>
+</table>
