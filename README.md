@@ -67,12 +67,19 @@ chapters. Click a chapter button to watch the video with audio.
 
 <table>
   <tr>
-    <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_1.jpg" width="420" alt="The Lost Tomb character reference 1"><br><b>Chapter 1 - Character Reference</b></td>
-    <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_2.jpg" width="420" alt="The Lost Tomb character reference 2"><br><b>Chapter 2 - Character Reference</b></td>
+    <th></th>
+    <th align="center">Chapter 1</th>
+    <th align="center">Chapter 2</th>
   </tr>
   <tr>
-    <td align="center"><a href="https://youtu.be/ba7dlY-buiY"><img src="assets/youtube_thumbnails/ba7dlY-buiY.jpg" width="420" alt="Watch The Lost Tomb Chapter 1 on YouTube"></a><br><b>Chapter 1</b></td>
-    <td align="center"><a href="https://youtu.be/npjA1qq8AhM"><img src="assets/youtube_thumbnails/npjA1qq8AhM.jpg" width="420" alt="Watch The Lost Tomb Chapter 2 on YouTube"></a><br><b>Chapter 2</b></td>
+    <th align="center">Character Design</th>
+    <td align="center"><img src="assets/characters_image/盗墓笔记_1.jpg" width="360" alt="The Lost Tomb Chapter 1 character design"></td>
+    <td align="center"><img src="assets/characters_image/盗墓笔记_2.jpg" width="360" alt="The Lost Tomb Chapter 2 character design"></td>
+  </tr>
+  <tr>
+    <th align="center">Generated Video Clip</th>
+    <td align="center"><a href="https://youtu.be/ba7dlY-buiY"><img src="assets/youtube_thumbnails/ba7dlY-buiY.jpg" width="360" alt="Watch The Lost Tomb Chapter 1 on YouTube"></a></td>
+    <td align="center"><a href="https://youtu.be/npjA1qq8AhM"><img src="assets/youtube_thumbnails/npjA1qq8AhM.jpg" width="360" alt="Watch The Lost Tomb Chapter 2 on YouTube"></a></td>
   </tr>
 </table>
 
@@ -80,12 +87,19 @@ chapters. Click a chapter button to watch the video with audio.
 
 <table>
   <tr>
-    <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_1.jpg" width="420" alt="Maoshan Ghost Hunter character reference 1"><br><b>Chapter 1 - Character Reference</b></td>
-    <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_2.jpg" width="420" alt="Maoshan Ghost Hunter character reference 2"><br><b>Chapter 2 - Character Reference</b></td>
+    <th></th>
+    <th align="center">Chapter 1</th>
+    <th align="center">Chapter 2</th>
   </tr>
   <tr>
-    <td align="center"><a href="https://youtu.be/GVt8tebEKvA"><img src="assets/youtube_thumbnails/GVt8tebEKvA.jpg" width="420" alt="Watch Maoshan Ghost Hunter Chapter 1 on YouTube"></a><br><b>Chapter 1</b></td>
-    <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="420" alt="Watch Maoshan Ghost Hunter Chapter 2 on YouTube"></a><br><b>Chapter 2</b></td>
+    <th align="center">Character Design</th>
+    <td align="center"><img src="assets/characters_image/茅山捉鬼人_1.jpg" width="360" alt="Maoshan Ghost Hunter Chapter 1 character design"></td>
+    <td align="center"><img src="assets/characters_image/茅山捉鬼人_2.jpg" width="360" alt="Maoshan Ghost Hunter Chapter 2 character design"></td>
+  </tr>
+  <tr>
+    <th align="center">Generated Video Clip</th>
+    <td align="center"><a href="https://youtu.be/GVt8tebEKvA"><img src="assets/youtube_thumbnails/GVt8tebEKvA.jpg" width="360" alt="Watch Maoshan Ghost Hunter Chapter 1 on YouTube"></a></td>
+    <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="360" alt="Watch Maoshan Ghost Hunter Chapter 2 on YouTube"></a></td>
   </tr>
 </table>
 
@@ -93,12 +107,19 @@ chapters. Click a chapter button to watch the video with audio.
 
 <table>
   <tr>
-    <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_1.jpg" width="420" alt="Apocalyptic story character reference 1"><br><b>Chapter 1 - Character Reference</b></td>
-    <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_2.jpg" width="420" alt="Apocalyptic story character reference 2"><br><b>Chapter 2 - Character Reference</b></td>
+    <th></th>
+    <th align="center">Chapter 1</th>
+    <th align="center">Chapter 2</th>
   </tr>
   <tr>
-    <td align="center"><a href="https://youtu.be/9-AosqKD1IE"><img src="assets/youtube_thumbnails/9-AosqKD1IE.jpg" width="420" alt="Watch Scavenging at the End of the World Chapter 1 on YouTube"></a><br><b>Chapter 1</b></td>
-    <td align="center"><a href="https://youtu.be/JrzBbX469sA"><img src="assets/youtube_thumbnails/JrzBbX469sA.jpg" width="420" alt="Watch Scavenging at the End of the World Chapter 2 on YouTube"></a><br><b>Chapter 2</b></td>
+    <th align="center">Character Design</th>
+    <td align="center"><img src="assets/characters_image/我在末日扫垃圾_1.jpg" width="360" alt="Scavenging at the End of the World Chapter 1 character design"></td>
+    <td align="center"><img src="assets/characters_image/我在末日扫垃圾_2.jpg" width="360" alt="Scavenging at the End of the World Chapter 2 character design"></td>
+  </tr>
+  <tr>
+    <th align="center">Generated Video Clip</th>
+    <td align="center"><a href="https://youtu.be/9-AosqKD1IE"><img src="assets/youtube_thumbnails/9-AosqKD1IE.jpg" width="360" alt="Watch Scavenging at the End of the World Chapter 1 on YouTube"></a></td>
+    <td align="center"><a href="https://youtu.be/JrzBbX469sA"><img src="assets/youtube_thumbnails/JrzBbX469sA.jpg" width="360" alt="Watch Scavenging at the End of the World Chapter 2 on YouTube"></a></td>
   </tr>
 </table>
 
@@ -106,11 +127,18 @@ chapters. Click a chapter button to watch the video with audio.
 
 <table>
   <tr>
-    <td align="center" width="50%"><img src="assets/characters_image/星辰变_1.jpg" width="420" alt="Stellar Transformations character reference 1"><br><b>Chapter 1 - Character Reference</b></td>
-    <td align="center" width="50%"><img src="assets/characters_image/星辰变_2.jpg" width="420" alt="Stellar Transformations character reference 2"><br><b>Chapter 2 - Character Reference</b></td>
+    <th></th>
+    <th align="center">Chapter 1</th>
+    <th align="center">Chapter 2</th>
   </tr>
   <tr>
-    <td align="center"><a href="https://youtu.be/OesS29j5fVw"><img src="assets/youtube_thumbnails/OesS29j5fVw.jpg" width="420" alt="Watch Stellar Transformations Chapter 1 on YouTube"></a><br><b>Chapter 1</b></td>
-    <td align="center"><a href="https://youtu.be/AsaULb0MdGM"><img src="assets/youtube_thumbnails/AsaULb0MdGM.jpg" width="420" alt="Watch Stellar Transformations Chapter 2 on YouTube"></a><br><b>Chapter 2</b></td>
+    <th align="center">Character Design</th>
+    <td align="center"><img src="assets/characters_image/星辰变_1.jpg" width="360" alt="Stellar Transformations Chapter 1 character design"></td>
+    <td align="center"><img src="assets/characters_image/星辰变_2.jpg" width="360" alt="Stellar Transformations Chapter 2 character design"></td>
+  </tr>
+  <tr>
+    <th align="center">Generated Video Clip</th>
+    <td align="center"><a href="https://youtu.be/OesS29j5fVw"><img src="assets/youtube_thumbnails/OesS29j5fVw.jpg" width="360" alt="Watch Stellar Transformations Chapter 1 on YouTube"></a></td>
+    <td align="center"><a href="https://youtu.be/AsaULb0MdGM"><img src="assets/youtube_thumbnails/AsaULb0MdGM.jpg" width="360" alt="Watch Stellar Transformations Chapter 2 on YouTube"></a></td>
   </tr>
 </table>
