@@ -58,53 +58,61 @@ flowchart LR
 4. Produce video shots while preserving visual consistency.
 5. Add voices, music, sound effects, subtitles, and export the final movie.
 
-## Character Showcase
+## Examples
+
+Each example contains two character reference sheets and two consecutive
+chapters. Click a chapter button to watch the video with audio.
+
+### 1. The Lost Tomb
 
 <table>
   <tr>
-    <td align="center"><img src="assets/characters/character-01.jpg" width="240" alt="Mystery character"><br><b>Mystery</b></td>
-    <td align="center"><img src="assets/characters/character-02.jpg" width="240" alt="Fantasy character"><br><b>Fantasy</b></td>
+    <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_1.jpg" width="420" alt="The Lost Tomb character reference 1"><br><b>Character Reference 1</b></td>
+    <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_2.jpg" width="420" alt="The Lost Tomb character reference 2"><br><b>Character Reference 2</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/characters/character-03.jpg" width="240" alt="Apocalypse character"><br><b>Apocalypse</b></td>
-    <td align="center"><img src="assets/characters/character-04.jpg" width="240" alt="Cultivation character"><br><b>Cultivation</b></td>
+    <td align="center"><a href="assets/video_example/盗墓笔记_1.mp4"><b>Watch Chapter 1</b></a></td>
+    <td align="center"><a href="assets/video_example/盗墓笔记_2.mp4"><b>Watch Chapter 2</b></a></td>
   </tr>
 </table>
 
-## Video Examples
-
-Click a preview image to open the video with audio.
+### 2. Maoshan Ghost Hunter
 
 <table>
   <tr>
-    <td align="center">
-      <a href="assets/examples/example-01.mp4">
-        <img src="assets/characters/character-01.jpg" width="360" alt="Mystery video example">
-      </a>
-      <br><b>Mystery Adventure</b>
-    </td>
-    <td align="center">
-      <a href="assets/examples/example-02.mp4">
-        <img src="assets/characters/character-02.jpg" width="360" alt="Fantasy video example">
-      </a>
-      <br><b>Supernatural Fantasy</b>
-    </td>
+    <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_1.jpg" width="420" alt="Maoshan Ghost Hunter character reference 1"><br><b>Character Reference 1</b></td>
+    <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_2.jpg" width="420" alt="Maoshan Ghost Hunter character reference 2"><br><b>Character Reference 2</b></td>
   </tr>
   <tr>
-    <td align="center">
-      <a href="assets/examples/example-03.mp4">
-        <img src="assets/characters/character-03.jpg" width="360" alt="Apocalypse video example">
-      </a>
-      <br><b>Post-apocalyptic Story</b>
-    </td>
-    <td align="center">
-      <a href="assets/examples/example-04.mp4">
-        <img src="assets/characters/character-04.jpg" width="360" alt="Cultivation video example">
-      </a>
-      <br><b>Eastern Cultivation</b>
-    </td>
+    <td align="center"><a href="assets/video_example/茅山捉鬼人_1.mp4"><b>Watch Chapter 1</b></a></td>
+    <td align="center"><a href="assets/video_example/茅山捉鬼人_2.mp4"><b>Watch Chapter 2</b></a></td>
   </tr>
 </table>
-This project will be released under an open-source license. Please verify that
+
+### 3. Scavenging at the End of the World
+
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_1.jpg" width="420" alt="Apocalyptic story character reference 1"><br><b>Character Reference 1</b></td>
+    <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_2.jpg" width="420" alt="Apocalyptic story character reference 2"><br><b>Character Reference 2</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="assets/video_example/我在末日扫垃圾_1.mp4"><b>Watch Chapter 1</b></a></td>
+    <td align="center"><a href="assets/video_example/我在末日扫垃圾_2.mp4"><b>Watch Chapter 2</b></a></td>
+  </tr>
+</table>
+
+### 4. Stellar Transformations
+
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="assets/characters_image/星辰变_1.jpg" width="420" alt="Stellar Transformations character reference 1"><br><b>Character Reference 1</b></td>
+    <td align="center" width="50%"><img src="assets/characters_image/星辰变_2.jpg" width="420" alt="Stellar Transformations character reference 2"><br><b>Character Reference 2</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="assets/video_example/星辰变_1.mp4"><b>Watch Chapter 1</b></a></td>
+    <td align="center"><a href="assets/video_example/星辰变_2.mp4"><b>Watch Chapter 2</b></a></td>
+  </tr>
+</table>
 you have permission to use any source novel, generated media, voices, music,
 and third-party models included in your production.
