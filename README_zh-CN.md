@@ -55,9 +55,12 @@ flowchart LR
 4. 在保持角色与视觉风格一致的前提下生成视频镜头。
 5. 添加配音、音乐、音效和字幕，导出最终影片。
 
-案例展示
+## 案例展示
+
 每个案例包含两张角色设定图和两个连续章节。点击章节按钮即可观看带音频的视频。
-1. 盗墓笔记
+
+### 1. 盗墓笔记
+
 <table>
   <tr>
     <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_1.jpg" width="420" alt="盗墓笔记角色设定图一"><br><b>角色设定图 1</b></td>
@@ -69,7 +72,8 @@ flowchart LR
   </tr>
 </table>
 
-2. 茅山捉鬼人
+### 2. 茅山捉鬼人
+
 <table>
   <tr>
     <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_1.jpg" width="420" alt="茅山捉鬼人角色设定图一"><br><b>角色设定图 1</b></td>
@@ -81,7 +85,8 @@ flowchart LR
   </tr>
 </table>
 
-3. 我在末日扫垃圾
+### 3. 我在末日扫垃圾
+
 <table>
   <tr>
     <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_1.jpg" width="420" alt="我在末日扫垃圾角色设定图一"><br><b>角色设定图 1</b></td>
@@ -93,7 +98,8 @@ flowchart LR
   </tr>
 </table>
 
-4. 星辰变
+### 4. 星辰变
+
 <table>
   <tr>
     <td align="center" width="50%"><img src="assets/characters_image/星辰变_1.jpg" width="420" alt="星辰变角色设定图一"><br><b>角色设定图 1</b></td>
