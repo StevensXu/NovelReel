@@ -57,22 +57,23 @@ flowchart LR
 
 ## 案例展示
 
-每个案例包含两张角色设定图和两个连续章节。点击章节按钮即可观看带音频的视频。
-
 ### 1. 盗墓笔记
 
 <table>
   <tr>
-    <td align="center" width="50%"><br><b>第1章</b></td>
-    <td align="center" width="50%"><br><b>第2章</b></td>
+    <th></th>
+    <th align="center">第一章</th>
+    <th align="center">第二章</th>
   </tr>
   <tr>
-    <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_1.jpg" width="420" alt="盗墓笔记角色设定图一"><br><b>第1章-角色设定图</b></td>
-    <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_2.jpg" width="420" alt="盗墓笔记角色设定图二"><br><b>第2章-角色设定图</b></td>
+    <th align="center">角色设定图</th>
+    <td align="center"><img src="assets/characters_image/盗墓笔记_1.jpg" width="360" alt="盗墓笔记第一章角色设定图"></td>
+    <td align="center"><img src="assets/characters_image/盗墓笔记_2.jpg" width="360" alt="盗墓笔记第二章角色设定图"></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://youtu.be/ba7dlY-buiY"><img src="assets/youtube_thumbnails/ba7dlY-buiY.jpg" width="420" alt="在 YouTube 观看盗墓笔记第 1 章"></a><br></td>
-    <td align="center"><a href="https://youtu.be/npjA1qq8AhM"><img src="assets/youtube_thumbnails/npjA1qq8AhM.jpg" width="420" alt="在 YouTube 观看盗墓笔记第 2 章"></a><br></td>
+    <th align="center">生成视频片段</th>
+    <td align="center"><a href="https://youtu.be/ba7dlY-buiY"><img src="assets/youtube_thumbnails/ba7dlY-buiY.jpg" width="360" alt="在 YouTube 观看盗墓笔记第一章"></a></td>
+    <td align="center"><a href="https://youtu.be/npjA1qq8AhM"><img src="assets/youtube_thumbnails/npjA1qq8AhM.jpg" width="360" alt="在 YouTube 观看盗墓笔记第二章"></a></td>
   </tr>
 </table>
 
@@ -80,16 +81,19 @@ flowchart LR
 
 <table>
   <tr>
-    <td align="center" width="50%"><br><b>第1章</b></td>
-    <td align="center" width="50%"><br><b>第2章</b></td>
+    <th></th>
+    <th align="center">第一章</th>
+    <th align="center">第二章</th>
   </tr>
   <tr>
-    <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_1.jpg" width="420" alt="茅山捉鬼人角色设定图一"><br></td>
-    <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_2.jpg" width="420" alt="茅山捉鬼人角色设定图二"><br></td>
+    <th align="center">角色设定图</th>
+    <td align="center"><img src="assets/characters_image/茅山捉鬼人_1.jpg" width="360" alt="茅山捉鬼人第一章角色设定图"></td>
+    <td align="center"><img src="assets/characters_image/茅山捉鬼人_2.jpg" width="360" alt="茅山捉鬼人第二章角色设定图"></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://youtu.be/GVt8tebEKvA"><img src="assets/youtube_thumbnails/GVt8tebEKvA.jpg" width="420" alt="在 YouTube 观看茅山捉鬼人第 1 章"></a><br></td>
-    <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="420" alt="在 YouTube 观看茅山捉鬼人第 2 章"></a><br></td>
+    <th align="center">生成视频片段</th>
+    <td align="center"><a href="https://youtu.be/GVt8tebEKvA"><img src="assets/youtube_thumbnails/GVt8tebEKvA.jpg" width="360" alt="在 YouTube 观看茅山捉鬼人第一章"></a></td>
+    <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="360" alt="在 YouTube 观看茅山捉鬼人第二章"></a></td>
   </tr>
 </table>
 
@@ -97,16 +101,19 @@ flowchart LR
 
 <table>
   <tr>
-    <td align="center" width="50%"><br><b>第1章</b></td>
-    <td align="center" width="50%"><br><b>第2章</b></td>
+    <th></th>
+    <th align="center">第一章</th>
+    <th align="center">第二章</th>
   </tr>
   <tr>
-    <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_1.jpg" width="420" alt="我在末日扫垃圾角色设定图一"><br></td>
-    <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_2.jpg" width="420" alt="我在末日扫垃圾角色设定图二"><br></td>
+    <th align="center">角色设定图</th>
+    <td align="center"><img src="assets/characters_image/我在末日扫垃圾_1.jpg" width="360" alt="我在末日扫垃圾第一章角色设定图"></td>
+    <td align="center"><img src="assets/characters_image/我在末日扫垃圾_2.jpg" width="360" alt="我在末日扫垃圾第二章角色设定图"></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://youtu.be/9-AosqKD1IE"><img src="assets/youtube_thumbnails/9-AosqKD1IE.jpg" width="420" alt="在 YouTube 观看我在末日扫垃圾第 1 章"></a><br></td>
-    <td align="center"><a href="https://youtu.be/JrzBbX469sA"><img src="assets/youtube_thumbnails/JrzBbX469sA.jpg" width="420" alt="在 YouTube 观看我在末日扫垃圾第 2 章"></a><br></td>
+    <th align="center">生成视频片段</th>
+    <td align="center"><a href="https://youtu.be/9-AosqKD1IE"><img src="assets/youtube_thumbnails/9-AosqKD1IE.jpg" width="360" alt="在 YouTube 观看我在末日扫垃圾第一章"></a></td>
+    <td align="center"><a href="https://youtu.be/JrzBbX469sA"><img src="assets/youtube_thumbnails/JrzBbX469sA.jpg" width="360" alt="在 YouTube 观看我在末日扫垃圾第二章"></a></td>
   </tr>
 </table>
 
@@ -114,17 +121,18 @@ flowchart LR
 
 <table>
   <tr>
-    <td align="center" width="50%"><br><b>第1章</b></td>
-    <td align="center" width="50%"><br><b>第2章</b></td>
+    <th></th>
+    <th align="center">第一章</th>
+    <th align="center">第二章</th>
   </tr>
   <tr>
-    <td align="center" width="50%"><img src="assets/characters_image/星辰变_1.jpg" width="420" alt="星辰变角色设定图一"><br></td>
-    <td align="center" width="50%"><img src="assets/characters_image/星辰变_2.jpg" width="420" alt="星辰变角色设定图二"><br></td>
+    <th align="center">角色设定图</th>
+    <td align="center"><img src="assets/characters_image/星辰变_1.jpg" width="360" alt="星辰变第一章角色设定图"></td>
+    <td align="center"><img src="assets/characters_image/星辰变_2.jpg" width="360" alt="星辰变第二章角色设定图"></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://youtu.be/OesS29j5fVw"><img src="assets/youtube_thumbnails/OesS29j5fVw.jpg" width="420" alt="在 YouTube 观看星辰变第 1 章"></a><br></td>
-    <td align="center"><a href="https://youtu.be/AsaULb0MdGM"><img src="assets/youtube_thumbnails/AsaULb0MdGM.jpg" width="420" alt="在 YouTube 观看星辰变第 2 章"></a><br></td>
-  </tr>
-</table>
+    <th align="center">生成视频片段</th>
+    <td align="center"><a href="https://youtu.be/OesS29j5fVw"><img src="assets/youtube_thumbnails/OesS29j5fVw.jpg" width="360" alt="在 YouTube 观看星辰变第一章"></a></td>
+    <td align="center"><a href="https://youtu.be/AsaULb0MdGM"><img src="assets/youtube_thumbnails/AsaULb0MdGM.jpg" width="360" alt="在 YouTube 观看星辰变第二章"></a></td>
   </tr>
 </table>
