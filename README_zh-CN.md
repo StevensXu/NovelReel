@@ -67,8 +67,8 @@ flowchart LR
     <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_2.jpg" width="420" alt="盗墓笔记角色设定图二"><br><b>角色设定图 2</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="assets/video_example/盗墓笔记_1.mp4"><b>观看第 1 章</b></a></td>
-    <td align="center"><a href="assets/video_example/盗墓笔记_2.mp4"><b>观看第 2 章</b></a></td>
+    <td align="center"><a href="https://youtu.be/ba7dlY-buiY"><b>在 YouTube 观看第 1 章</b></a></td>
+    <td align="center"><a href="https://youtu.be/npjA1qq8AhM"><b>在 YouTube 观看第 2 章</b></a></td>
   </tr>
 </table>
 
@@ -80,8 +80,8 @@ flowchart LR
     <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_2.jpg" width="420" alt="茅山捉鬼人角色设定图二"><br><b>角色设定图 2</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="assets/video_example/茅山捉鬼人_1.mp4"><b>观看第 1 章</b></a></td>
-    <td align="center"><a href="assets/video_example/茅山捉鬼人_2.mp4"><b>观看第 2 章</b></a></td>
+    <td align="center"><a href="https://youtu.be/GVt8tebEKvA"><b>在 YouTube 观看第 1 章</b></a></td>
+    <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><b>在 YouTube 观看第 2 章</b></a></td>
   </tr>
 </table>
 
@@ -93,8 +93,8 @@ flowchart LR
     <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_2.jpg" width="420" alt="我在末日扫垃圾角色设定图二"><br><b>角色设定图 2</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="assets/video_example/我在末日扫垃圾_1.mp4"><b>观看第 1 章</b></a></td>
-    <td align="center"><a href="assets/video_example/我在末日扫垃圾_2.mp4"><b>观看第 2 章</b></a></td>
+    <td align="center"><a href="https://youtu.be/9-AosqKD1IE"><b>在 YouTube 观看第 1 章</b></a></td>
+    <td align="center"><a href="https://youtu.be/JrzBbX469sA"><b>在 YouTube 观看第 2 章</b></a></td>
   </tr>
 </table>
 
@@ -106,7 +106,10 @@ flowchart LR
     <td align="center" width="50%"><img src="assets/characters_image/星辰变_2.jpg" width="420" alt="星辰变角色设定图二"><br><b>角色设定图 2</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="assets/video_example/星辰变_1.mp4"><b>观看第 1 章</b></a></td>
+    <td align="center"><a href="https://youtu.be/OesS29j5fVw"><b>在 YouTube 观看第 1 章</b></a></td>
+    <td align="center"><a href="https://youtu.be/AsaULb0MdGM"><b>在 YouTube 观看第 2 章</b></a></td>
+  </tr>
+</table>
     <td align="center"><a href="assets/video_example/星辰变_2.mp4"><b>观看第 2 章</b></a></td>
   </tr>
 </table>
