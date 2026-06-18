@@ -142,3 +142,35 @@ chapters. Click a chapter button to watch the video with audio.
     <td align="center"><a href="https://youtu.be/AsaULb0MdGM"><img src="assets/youtube_thumbnails/AsaULb0MdGM.jpg" width="360" alt="Watch Stellar Transformations Chapter 2 on YouTube"></a></td>
   </tr>
 </table>
+
+
+## Character Voice Consistency Comparison
+
+NovelReel calibrates each character's voice across shots and chapters, keeping
+the voice consistent throughout a continuous storyline.
+
+### Comparison 1
+
+<table>
+  <tr>
+    <th align="center">Before Voice Consistency</th>
+    <th align="center">After Voice Consistency</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://youtu.be/LO2K_PX2f_s"><img src="assets/youtube_thumbnails/LO2K_PX2f_s.jpg" width="420" alt="Watch the video before character voice consistency"></a></td>
+    <td align="center"><a href="https://youtu.be/9-AosqKD1IE"><img src="assets/youtube_thumbnails/9-AosqKD1IE.jpg" width="420" alt="Watch the video after character voice consistency"></a></td>
+  </tr>
+</table>
+
+### Comparison 2
+
+<table>
+  <tr>
+    <th align="center">Before Voice Consistency</th>
+    <th align="center">After Voice Consistency</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://youtu.be/nrP3PAaMTfA"><img src="assets/youtube_thumbnails/nrP3PAaMTfA.jpg" width="420" alt="Watch the video before character voice consistency"></a></td>
+    <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="420" alt="Watch the video after character voice consistency"></a></td>
+  </tr>
+</table>
