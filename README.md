@@ -71,8 +71,8 @@ chapters. Click a chapter button to watch the video with audio.
     <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_2.jpg" width="420" alt="The Lost Tomb character reference 2"><br><b>Character Reference 2</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="assets/video_example/盗墓笔记_1.mp4"><b>Watch Chapter 1</b></a></td>
-    <td align="center"><a href="assets/video_example/盗墓笔记_2.mp4"><b>Watch Chapter 2</b></a></td>
+    <td align="center"><a href="https://youtu.be/ba7dlY-buiY"><b>Watch Chapter 1 on YouTube</b></a></td>
+    <td align="center"><a href="https://youtu.be/npjA1qq8AhM"><b>Watch Chapter 2 on YouTube</b></a></td>
   </tr>
 </table>
 
@@ -84,8 +84,8 @@ chapters. Click a chapter button to watch the video with audio.
     <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_2.jpg" width="420" alt="Maoshan Ghost Hunter character reference 2"><br><b>Character Reference 2</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="assets/video_example/茅山捉鬼人_1.mp4"><b>Watch Chapter 1</b></a></td>
-    <td align="center"><a href="assets/video_example/茅山捉鬼人_2.mp4"><b>Watch Chapter 2</b></a></td>
+    <td align="center"><a href="https://youtu.be/GVt8tebEKvA"><b>Watch Chapter 1 on YouTube</b></a></td>
+    <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><b>Watch Chapter 2 on YouTube</b></a></td>
   </tr>
 </table>
 
@@ -97,8 +97,8 @@ chapters. Click a chapter button to watch the video with audio.
     <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_2.jpg" width="420" alt="Apocalyptic story character reference 2"><br><b>Character Reference 2</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="assets/video_example/我在末日扫垃圾_1.mp4"><b>Watch Chapter 1</b></a></td>
-    <td align="center"><a href="assets/video_example/我在末日扫垃圾_2.mp4"><b>Watch Chapter 2</b></a></td>
+    <td align="center"><a href="https://youtu.be/9-AosqKD1IE"><b>Watch Chapter 1 on YouTube</b></a></td>
+    <td align="center"><a href="https://youtu.be/JrzBbX469sA"><b>Watch Chapter 2 on YouTube</b></a></td>
   </tr>
 </table>
 
@@ -110,8 +110,8 @@ chapters. Click a chapter button to watch the video with audio.
     <td align="center" width="50%"><img src="assets/characters_image/星辰变_2.jpg" width="420" alt="Stellar Transformations character reference 2"><br><b>Character Reference 2</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="assets/video_example/星辰变_1.mp4"><b>Watch Chapter 1</b></a></td>
-    <td align="center"><a href="assets/video_example/星辰变_2.mp4"><b>Watch Chapter 2</b></a></td>
+    <td align="center"><a href="https://youtu.be/OesS29j5fVw"><b>Watch Chapter 1 on YouTube</b></a></td>
+    <td align="center"><a href="https://youtu.be/AsaULb0MdGM"><b>Watch Chapter 2 on YouTube</b></a></td>
   </tr>
 </table>
 you have permission to use any source novel, generated media, voices, music,
