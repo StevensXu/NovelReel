@@ -2,9 +2,9 @@
 
 # NovelReel
 
-### 使用 AI 将网络小说转化为电影级视频
+### 使用LLM和视觉生成模型将网络小说转化为电影级视频
 
-一个面向网络小说的开源 AI 影视制作流程，将长篇小说自动转化为剧本、
+一个面向网络小说的开源AI短剧制作流程，将长篇小说自动转化为剧本、
 角色、分镜、配音和完整视频。
 
 <a href="README.md"><img src="https://img.shields.io/badge/English-0969DA?style=for-the-badge" alt="English"></a>
