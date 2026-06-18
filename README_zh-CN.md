@@ -63,6 +63,10 @@ flowchart LR
 
 <table>
   <tr>
+    <td align="center" width="50%"><br><b>第1章</b></td>
+    <td align="center" width="50%"><br><b>第2章</b></td>
+  </tr>
+  <tr>
     <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_1.jpg" width="420" alt="盗墓笔记角色设定图一"><br><b>第1章-角色设定图</b></td>
     <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_2.jpg" width="420" alt="盗墓笔记角色设定图二"><br><b>第2章-角色设定图</b></td>
   </tr>
@@ -75,6 +79,10 @@ flowchart LR
 ### 2. 茅山捉鬼人
 
 <table>
+  <tr>
+    <td align="center" width="50%"><br><b>第1章</b></td>
+    <td align="center" width="50%"><br><b>第2章</b></td>
+  </tr>
   <tr>
     <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_1.jpg" width="420" alt="茅山捉鬼人角色设定图一"><br><b>第1章-角色设定图</b></td>
     <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_2.jpg" width="420" alt="茅山捉鬼人角色设定图二"><br><b>第2章-角色设定图</b></td>
@@ -89,6 +97,10 @@ flowchart LR
 
 <table>
   <tr>
+    <td align="center" width="50%"><br><b>第1章</b></td>
+    <td align="center" width="50%"><br><b>第2章</b></td>
+  </tr>
+  <tr>
     <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_1.jpg" width="420" alt="我在末日扫垃圾角色设定图一"><br><b>第1章-角色设定图</b></td>
     <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_2.jpg" width="420" alt="我在末日扫垃圾角色设定图二"><br><b>第2章-角色设定图</b></td>
   </tr>
@@ -101,6 +113,10 @@ flowchart LR
 ### 4. 星辰变
 
 <table>
+  <tr>
+    <td align="center" width="50%"><br><b>第1章</b></td>
+    <td align="center" width="50%"><br><b>第2章</b></td>
+  </tr>
   <tr>
     <td align="center" width="50%"><img src="assets/characters_image/星辰变_1.jpg" width="420" alt="星辰变角色设定图一"><br><b>第1章-角色设定图</b></td>
     <td align="center" width="50%"><img src="assets/characters_image/星辰变_2.jpg" width="420" alt="星辰变角色设定图二"><br><b>第2章-角色设定图</b></td>
