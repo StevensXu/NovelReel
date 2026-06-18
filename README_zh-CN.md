@@ -55,53 +55,52 @@ flowchart LR
 4. 在保持角色与视觉风格一致的前提下生成视频镜头。
 5. 添加配音、音乐、音效和字幕，导出最终影片。
 
-## 角色展示
-
+案例展示
+每个案例包含两张角色设定图和两个连续章节。点击章节按钮即可观看带音频的视频。
+1. 盗墓笔记
 <table>
   <tr>
-    <td align="center"><img src="assets/characters/character-01.jpg" width="240" alt="悬疑角色"><br><b>悬疑冒险</b></td>
-    <td align="center"><img src="assets/characters/character-02.jpg" width="240" alt="奇幻角色"><br><b>灵异奇幻</b></td>
+    <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_1.jpg" width="420" alt="盗墓笔记角色设定图一"><br><b>角色设定图 1</b></td>
+    <td align="center" width="50%"><img src="assets/characters_image/盗墓笔记_2.jpg" width="420" alt="盗墓笔记角色设定图二"><br><b>角色设定图 2</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/characters/character-03.jpg" width="240" alt="末日角色"><br><b>末日世界</b></td>
-    <td align="center"><img src="assets/characters/character-04.jpg" width="240" alt="修仙角色"><br><b>东方修仙</b></td>
+    <td align="center"><a href="assets/video_example/盗墓笔记_1.mp4"><b>观看第 1 章</b></a></td>
+    <td align="center"><a href="assets/video_example/盗墓笔记_2.mp4"><b>观看第 2 章</b></a></td>
   </tr>
 </table>
 
-## 视频案例
-
-点击预览图即可打开带音频的视频。
-
+2. 茅山捉鬼人
 <table>
   <tr>
-    <td align="center">
-      <a href="assets/examples/example-01.mp4">
-        <img src="assets/characters/character-01.jpg" width="360" alt="悬疑冒险视频案例">
-      </a>
-      <br><b>悬疑冒险</b>
-    </td>
-    <td align="center">
-      <a href="assets/examples/example-02.mp4">
-        <img src="assets/characters/character-02.jpg" width="360" alt="灵异奇幻视频案例">
-      </a>
-      <br><b>灵异奇幻</b>
-    </td>
+    <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_1.jpg" width="420" alt="茅山捉鬼人角色设定图一"><br><b>角色设定图 1</b></td>
+    <td align="center" width="50%"><img src="assets/characters_image/茅山捉鬼人_2.jpg" width="420" alt="茅山捉鬼人角色设定图二"><br><b>角色设定图 2</b></td>
   </tr>
   <tr>
-    <td align="center">
-      <a href="assets/examples/example-03.mp4">
-        <img src="assets/characters/character-03.jpg" width="360" alt="末日题材视频案例">
-      </a>
-      <br><b>末日题材</b>
-    </td>
-    <td align="center">
-      <a href="assets/examples/example-04.mp4">
-        <img src="assets/characters/character-04.jpg" width="360" alt="东方修仙视频案例">
-      </a>
-      <br><b>东方修仙</b>
-    </td>
+    <td align="center"><a href="assets/video_example/茅山捉鬼人_1.mp4"><b>观看第 1 章</b></a></td>
+    <td align="center"><a href="assets/video_example/茅山捉鬼人_2.mp4"><b>观看第 2 章</b></a></td>
   </tr>
 </table>
-本项目将采用开源协议发布。使用小说原文、生成素材、人物声音、音乐或
-第三方模型进行创作前，请确认你拥有相应的使用权。
 
+3. 我在末日扫垃圾
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_1.jpg" width="420" alt="我在末日扫垃圾角色设定图一"><br><b>角色设定图 1</b></td>
+    <td align="center" width="50%"><img src="assets/characters_image/我在末日扫垃圾_2.jpg" width="420" alt="我在末日扫垃圾角色设定图二"><br><b>角色设定图 2</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="assets/video_example/我在末日扫垃圾_1.mp4"><b>观看第 1 章</b></a></td>
+    <td align="center"><a href="assets/video_example/我在末日扫垃圾_2.mp4"><b>观看第 2 章</b></a></td>
+  </tr>
+</table>
+
+4. 星辰变
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="assets/characters_image/星辰变_1.jpg" width="420" alt="星辰变角色设定图一"><br><b>角色设定图 1</b></td>
+    <td align="center" width="50%"><img src="assets/characters_image/星辰变_2.jpg" width="420" alt="星辰变角色设定图二"><br><b>角色设定图 2</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="assets/video_example/星辰变_1.mp4"><b>观看第 1 章</b></a></td>
+    <td align="center"><a href="assets/video_example/星辰变_2.mp4"><b>观看第 2 章</b></a></td>
+  </tr>
+</table>
