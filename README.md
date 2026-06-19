@@ -19,7 +19,7 @@ generative models.
   <a href="README_zh-CN.md"><img src="https://img.shields.io/badge/中文-D73A49?style=for-the-badge" alt="中文"></a>
 </p>
 
-[Introduction](#introduction) · [Workflow](#workflow) · [Examples](#examples) · [Voice Comparison](#character-voice-consistency-comparison) · [Roadmap](#roadmap)
+[Introduction](#introduction) · [Workflow](#workflow) · [Examples](#examples) · [Voice Comparison](#character-voice-consistency-comparison)
 
 </div>
 
