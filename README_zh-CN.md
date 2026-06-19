@@ -177,5 +177,3 @@
     <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="420" alt="观看角色音色一致化后的视频"></a></td>
   </tr>
 </table>
-本项目将采用开源协议发布。使用小说原文、生成素材、人物声音、音乐或
-第三方模型进行创作前，请确认你拥有相应的使用权。
