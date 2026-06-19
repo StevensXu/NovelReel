@@ -2,17 +2,28 @@
 
 # NovelReel
 
-### Turn web novels into cinematic videos with LLMs and visual generative models
+### Turn web novels into consistent, cinematic AI short dramas
 
-An open-source pipeline for adapting long-form web fiction into scripts,
-consistent characters, visual shots, narration, and finished videos.
+An open-source, end-to-end production pipeline powered by LLMs and visual
+generative models.
 
-<a href="README.md"><img src="https://img.shields.io/badge/English-0969DA?style=for-the-badge" alt="English"></a>
-<a href="README_zh-CN.md"><img src="https://img.shields.io/badge/中文-D73A49?style=for-the-badge" alt="中文"></a>
+<p>
+  <img src="https://img.shields.io/badge/status-work_in_progress-F59E0B?style=flat-square" alt="Status: work in progress">
+  <img src="https://img.shields.io/badge/pipeline-fully_automated-2EA44F?style=flat-square" alt="Fully automated pipeline">
+  <img src="https://img.shields.io/badge/consistency-visual_%2B_voice-8250DF?style=flat-square" alt="Visual and voice consistency">
+  <img src="https://img.shields.io/badge/content-web_novels-0969DA?style=flat-square" alt="Designed for web novels">
+</p>
 
-[Introduction](#introduction) · [Workflow](#workflow) · [Characters](#character-showcase) · [Examples](#video-examples)
+<p>
+  <a href="README.md"><img src="https://img.shields.io/badge/English-0969DA?style=for-the-badge" alt="English"></a>
+  <a href="README_zh-CN.md"><img src="https://img.shields.io/badge/中文-D73A49?style=for-the-badge" alt="中文"></a>
+</p>
+
+[Introduction](#introduction) · [Workflow](#workflow) · [Examples](#examples) · [Voice Comparison](#character-voice-consistency-comparison) · [Roadmap](#roadmap)
 
 </div>
+
+---
 
 ## Introduction
 
@@ -21,30 +32,41 @@ for web novels. It transforms novels into complete AI short dramas while
 maintaining consistent characters (appearance and voice), props, and scenes.
 The entire production process requires no manual intervention.
 
-### Core Features
+### Highlights
 
-#### 1. Automated Web Novel to AI Short Drama
-
-- Automatically extracts characters, props, and scenes, then generates their
-  corresponding reference images
-- Preserves character, prop, and scene consistency across chapters
-- Automatically structures screenplays and generates videos with narrative
-  continuity
-
-#### 2. Intelligent Voice Generation
-
-- Assigns a consistent voice to each character
-- Calibrates and preserves character voice consistency across shots
-
+<table>
+  <tr>
+    <td width="50%"><b>Automated Adaptation</b><br>Extracts story elements, structures screenplays, and generates continuous short-drama episodes.</td>
+    <td width="50%"><b>Visual Consistency</b><br>Maintains character appearance, props, and scene identity across chapters and shots.</td>
+  </tr>
+  <tr>
+    <td width="50%"><b>Character Voice Consistency</b><br>Assigns and calibrates a stable voice for every character across the full story.</td>
+    <td width="50%"><b>End-to-End Production</b><br>Connects story analysis, reference generation, storyboarding, video generation, and final audio.</td>
+  </tr>
+</table>
 
 ## Workflow
 
+<div align="center">
+  <img src="assets/method.jpg" width="100%" alt="NovelReel video generation and voice consistency pipeline">
+  <br>
+  <sub>NovelReel video generation and character voice consistency pipeline.</sub>
+</div>
 
+<br>
+
+1. Parse the novel and extract characters, locations, events, and timelines.
+2. Build global character and prop references shared across chapters.
+3. Adapt the source text into screenplays, storyboards, and camera directions.
+4. Generate video shots while preserving character, prop, and scene consistency.
+5. Separate dialogue, align speakers, unify character voices, and produce final audio.
+
+---
 
 ## Examples
 
 Each example contains two character reference sheets and two consecutive
-chapters. Click a chapter button to watch the video with audio.
+chapters. Click a video thumbnail to watch the generated chapter with audio.
 
 ### 1. The Lost Tomb
 
@@ -126,11 +148,13 @@ chapters. Click a chapter button to watch the video with audio.
   </tr>
 </table>
 
+---
 
 ## Character Voice Consistency Comparison
 
 NovelReel calibrates each character's voice across shots and chapters, keeping
-the voice consistent throughout a continuous storyline.
+the voice consistent throughout a continuous storyline. Click a thumbnail to
+compare the complete videos before and after voice consistency processing.
 
 ### Comparison 1
 
@@ -157,3 +181,5 @@ the voice consistent throughout a continuous storyline.
     <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="420" alt="Watch the video after character voice consistency"></a></td>
   </tr>
 </table>
+you have permission to use any source novel, generated media, voices, music,
+and third-party models included in your production.
