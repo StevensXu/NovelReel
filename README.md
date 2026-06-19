@@ -181,5 +181,3 @@ compare the complete videos before and after voice consistency processing.
     <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="420" alt="Watch the video after character voice consistency"></a></td>
   </tr>
 </table>
-you have permission to use any source novel, generated media, voices, music,
-and third-party models included in your production.
