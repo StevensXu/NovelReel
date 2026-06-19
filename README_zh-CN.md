@@ -2,17 +2,27 @@
 
 # NovelReel
 
-### 使用 LLM 和视觉生成模型将网络小说转化为电影级视频
+### 将网络小说转化为角色一致、电影级的 AI 短剧
 
-一个面向网络小说的开源 AI 短剧制作流程，将长篇小说自动转化为剧本、
-角色、分镜、配音和完整视频。
+一个由 LLM 和视觉生成模型驱动的端到端开源制作流水线。
 
-<a href="README.md"><img src="https://img.shields.io/badge/English-0969DA?style=for-the-badge" alt="English"></a>
-<a href="README_zh-CN.md"><img src="https://img.shields.io/badge/中文-D73A49?style=for-the-badge" alt="中文"></a>
+<p>
+  <img src="https://img.shields.io/badge/状态-开发中-F59E0B?style=flat-square" alt="状态：开发中">
+  <img src="https://img.shields.io/badge/流程-全自动-2EA44F?style=flat-square" alt="全自动制作流程">
+  <img src="https://img.shields.io/badge/一致性-视觉_%2B_音色-8250DF?style=flat-square" alt="视觉和音色一致性">
+  <img src="https://img.shields.io/badge/内容-网络小说-0969DA?style=flat-square" alt="面向网络小说">
+</p>
 
-[项目介绍](#项目介绍) · [工作流程](#工作流程) · [角色展示](#角色展示) · [视频案例](#视频案例)
+<p>
+  <a href="README.md"><img src="https://img.shields.io/badge/English-0969DA?style=for-the-badge" alt="English"></a>
+  <a href="README_zh-CN.md"><img src="https://img.shields.io/badge/中文-D73A49?style=for-the-badge" alt="中文"></a>
+</p>
+
+[项目介绍](#项目介绍) · [工作流程](#工作流程) · [案例展示](#案例展示) · [音色对比](#角色音色一致性对比) · [开发计划](#开发计划)
 
 </div>
+
+---
 
 ## 项目介绍
 
@@ -20,25 +30,40 @@
 转化为完整的 AI 短剧，并保持角色（形象与音色）、道具和场景的一致性。
 整个制作过程无需人工介入。
 
-### 核心功能
+### 核心能力
 
-#### 1. 自动化小说转 AI 短剧
-
-- 自动提取角色、道具和场景，并生成对应的参考图
-- 保持跨章节角色、道具和场景的一致性
-- 自动编排剧本并生成剧情连续的视频
-
-#### 2. 智能配音
-
-- 为每个角色分配统一的音色
-- 校准并保持角色跨镜头的音色一致性
-
+<table>
+  <tr>
+    <td width="50%"><b>自动化小说改编</b><br>提取故事元素、编排剧本，并生成剧情连续的 AI 短剧。</td>
+    <td width="50%"><b>视觉一致性</b><br>保持角色形象、道具和场景在跨章节、跨镜头时的一致性。</td>
+  </tr>
+  <tr>
+    <td width="50%"><b>角色音色一致性</b><br>为每个角色分配并校准稳定音色，贯穿完整故事。</td>
+    <td width="50%"><b>端到端制作</b><br>串联故事分析、参考图、分镜、视频生成和最终音频制作。</td>
+  </tr>
+</table>
 
 ## 工作流程
 
+<div align="center">
+  <img src="assets/method.jpg" width="100%" alt="NovelReel 视频生成与角色音色一致性流水线">
+  <br>
+  <sub>NovelReel 视频生成与角色音色一致性流水线。</sub>
+</div>
 
+<br>
+
+1. 解析小说，提取角色、地点、事件和故事时间线。
+2. 建立跨章节共享的全局角色与道具参考。
+3. 将原文改编为剧本、分镜和镜头描述。
+4. 在保持角色、道具和场景一致的前提下生成视频镜头。
+5. 分离对白、对齐说话角色、统一角色音色并生成最终音频。
+
+---
 
 ## 案例展示
+
+每个案例包含两张角色设定图和两个连续章节。点击视频封面即可观看带音频的生成结果。
 
 ### 1. 盗墓笔记
 
@@ -120,10 +145,12 @@
   </tr>
 </table>
 
+---
 
 ## 角色音色一致性对比
 
 对同一角色跨镜头、跨章节的音色进行校准，使角色声音在连续剧情中保持一致。
+点击封面可观看并对比处理前后的完整视频。
 
 ### 对比例子 1
 
@@ -150,3 +177,24 @@
     <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="420" alt="观看角色音色一致化后的视频"></a></td>
   </tr>
 </table>
+
+---
+
+## 开发计划
+
+- [ ] 小说解析与知识库
+- [ ] 剧本和分镜生成
+- [ ] 角色一致性工作流
+- [ ] 配音与音频生成
+- [ ] 自动化视频剪辑
+- [ ] Web 界面与本地部署
+
+## 参与贡献
+
+NovelReel 目前处于早期开发阶段。欢迎提交 Issue、功能建议、文档改进、
+模型集成方案和 Pull Request。
+
+## 开源协议
+
+本项目将采用开源协议发布。使用小说原文、生成素材、人物声音、音乐或
+第三方模型进行创作前，请确认你拥有相应的使用权。
