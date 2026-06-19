@@ -63,7 +63,7 @@
 
 ## 案例展示
 
-每个案例包含两张角色设定图和两个连续章节。点击视频封面即可观看带音频的生成结果。
+每个案例包含两张角色设定图和两个连续章节。
 
 ### 1. 盗墓笔记
 
@@ -150,14 +150,13 @@
 ## 角色音色一致性对比
 
 对同一角色跨镜头、跨章节的音色进行校准，使角色声音在连续剧情中保持一致。
-点击封面可观看并对比处理前后的完整视频。
 
 ### 对比例子 1
 
 <table>
   <tr>
-    <th align="center">角色音色一致化前</th>
-    <th align="center">角色音色一致化后</th>
+    <th align="center">音色一致化前</th>
+    <th align="center">音色一致化后</th>
   </tr>
   <tr>
     <td align="center"><a href="https://youtu.be/LO2K_PX2f_s"><img src="assets/youtube_thumbnails/LO2K_PX2f_s.jpg" width="420" alt="观看角色音色一致化前的视频"></a></td>
@@ -169,8 +168,8 @@
 
 <table>
   <tr>
-    <th align="center">角色音色一致化前</th>
-    <th align="center">角色音色一致化后</th>
+    <th align="center">音色一致化前</th>
+    <th align="center">音色一致化后</th>
   </tr>
   <tr>
     <td align="center"><a href="https://youtu.be/nrP3PAaMTfA"><img src="assets/youtube_thumbnails/nrP3PAaMTfA.jpg" width="420" alt="观看角色音色一致化前的视频"></a></td>
