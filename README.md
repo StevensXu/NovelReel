@@ -181,3 +181,120 @@ compare the complete videos before and after voice consistency processing.
     <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="420" alt="Watch the video after character voice consistency"></a></td>
   </tr>
 </table>
+
+## Setup
+
+Use Python 3.10 or newer.
+
+```bash
+pip install -r requirement.txt
+```
+
+Install `ffmpeg` separately because Step 6 and the voice tools call it from the command line.
+
+```bash
+sudo apt update
+sudo apt install -y ffmpeg
+```
+
+On macOS, use `brew install ffmpeg` instead.
+
+Configure API keys and model providers in `config.yaml`.
+
+## Run The Full Pipeline
+
+First chapter:
+
+```bash
+python pipeline.py --chapter-name chapter_01 --story-file story.txt --style 动漫
+```
+
+Later chapter:
+
+```bash
+python pipeline.py --not-first-chapter --global-output-dir output --chapter-name chapter_02 --story-file story_2.txt --style 动漫
+```
+
+By default, Step 5 is mock mode: it prints video prompts and writes `video_clips.json`, but does not call the video generation API. To actually generate video clips:
+
+```bash
+python pipeline.py --chapter-name chapter_01 --story-file story.txt --style 动漫 --use-video-generator --video-provider zenmux
+```
+
+## Run Steps Manually
+
+First chapter:
+
+```bash
+python -m steps.step1_extract_characters --chapter-name chapter_01 --story-file story.txt --style 动漫
+python -m steps.step1b_generate_char_images --chapter-name chapter_01
+python -m steps.step2_extract_props --chapter-name chapter_01 --story-file story.txt
+python -m steps.step2b_generate_prop_images --chapter-name chapter_01
+python -m steps.step3_generate_storyboard --chapter-name chapter_01 --story-file story.txt
+python -m steps.step3b_audit_storyboard_assets --chapter-name chapter_01
+python -m steps.step4_generate_env_images --chapter-name chapter_01
+python -m steps.step5_generate_videos --chapter-name chapter_01 --use-video-generator --video-provider zenmux
+python -m steps.step6_concat_video --chapter-name chapter_01
+```
+
+Later chapter:
+
+```bash
+python -m steps.step1_extract_characters --not-first-chapter --global-output-dir output --chapter-name chapter_02 --story-file story_2.txt --style 动漫
+python -m steps.step1b_generate_char_images --not-first-chapter --global-output-dir output --chapter-name chapter_02
+python -m steps.step2_extract_props --not-first-chapter --global-output-dir output --chapter-name chapter_02 --story-file story_2.txt
+python -m steps.step2b_generate_prop_images --not-first-chapter --global-output-dir output --chapter-name chapter_02
+python -m steps.step3_generate_storyboard --not-first-chapter --chapter-name chapter_02 --story-file story_2.txt
+python -m steps.step3b_audit_storyboard_assets --not-first-chapter --chapter-name chapter_02
+python -m steps.step4_generate_env_images --not-first-chapter --global-output-dir output --chapter-name chapter_02
+python -m steps.step5_generate_videos --not-first-chapter --chapter-name chapter_02 --use-video-generator --video-provider zenmux
+python -m steps.step6_concat_video --chapter-name chapter_02
+```
+
+
+## Voice
+
+The voice pipeline extracts dialogue timing from generated clips, assigns each speaker a reusable `voice_id`, generates cloned dialogue audio with CosyVoice, and mixes the dialogue back onto each storyboard background audio.
+
+Install CosyVoice, download the CosyVoice2 model, and configure optional vLLM strictly according to the official GitHub README: https://github.com/FunAudioLLM/CosyVoice
+
+After Step 5 has produced `video_clips.json` and `videos/*.mp4`, run the voice pipeline in three steps.
+
+Step 1: extract dialogue text and timing:
+
+```bash
+python voice/extract_diaglogues_time.py output/chapter_01 --model gemini-3.1-pro-preview --asr-model voice/faster-whisper-large --device cpu --compute-type int8
+```
+
+Prepare voice templates under the chapter directory:
+
+```text
+output/chapter_01/
+  voice_template/
+    dialogues.json
+    男主_少年.wav
+    女主_中年.wav
+```
+
+`voice_template/dialogues.json` should map each template wav stem to the prompt text spoken in that wav:
+
+```json
+[
+  {
+    "voice_id": "男主_少年",
+    "voice_text": "这里填写这段声音模板里真实说出的文字。"
+  }
+]
+```
+
+Step 2: render CosyVoice dialogue audio and mix it with each storyboard background audio:
+
+```bash
+python voice/render_dialogue_audio.py output/chapter_01
+```
+
+Step 3: replace each generated video's original audio with the mixed dialogue audio:
+
+```bash
+python voice/replace_video_audio.py output/chapter_01
+```
