@@ -1,0 +1,44 @@
+llm:
+  base_url: https://zenmux.ai/api/v1
+  api_key: your api-key
+  model: google/gemini-3.1-pro-preview
+  temperature:
+  top_p:
+  max_output_tokens:
+
+image:
+  provider: seedream
+  seedream:
+    base_url: https://ark.cn-beijing.volces.com/api/v3
+    api_key: your api-key
+    model: doubao-seedream-5-0-260128
+    multi_view_size: 2K
+    sizes:
+      "16:9": 2848x1600
+      "9:16": 1600x2848
+      "1:1": 2048x2048
+
+video:
+  provider: ark
+  ratio: "16:9"
+  resolution: 480p
+  poll_interval: 30
+  generate_audio: true
+  watermark: false
+  providers:
+    ark:
+      base_url: https://ark.cn-beijing.volces.com/api/v3
+      model: doubao-seedance-2-0-260128
+      api_key: your api-key
+    zenmux:
+      base_url: https://zenmux.ai/api/vertex-ai
+      model: bytedance/doubao-seedance-2.0
+      api_key: your api-key
+
+voice:
+  cosyvoice:
+    model_dir: pretrained_models/CosyVoice2-0.5B
+    load_jit: true
+    load_trt: false
+    load_vllm: true
+    fp16: true
