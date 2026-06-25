@@ -176,3 +176,124 @@
     <td align="center"><a href="https://youtu.be/mdMaMKaI8Bc"><img src="assets/youtube_thumbnails/mdMaMKaI8Bc.jpg" width="420" alt="观看角色音色一致化后的视频"></a></td>
   </tr>
 </table>
+
+
+## 环境准备
+
+使用 Python 3.10 或更高版本。
+
+```bash
+pip install -r requirement.txt
+```
+
+需要单独安装 `ffmpeg`，因为 Step 6 和语音工具会从命令行调用它。
+
+```bash
+sudo apt update
+sudo apt install -y ffmpeg
+```
+
+如果使用 macOS，可以改用：
+
+```bash
+brew install ffmpeg
+```
+
+在 `config.yaml` 中配置 API Key 和模型服务商。
+
+## 运行完整流水线
+
+第一章：
+
+```bash
+python pipeline.py --chapter-name chapter_01 --story-file story.txt --style 动漫
+```
+
+后续章节：
+
+```bash
+python pipeline.py --not-first-chapter --global-output-dir output --chapter-name chapter_02 --story-file story_2.txt --style 动漫
+```
+
+默认情况下，Step 5 是 Mock 模式：它只会打印视频提示词并写入 `video_clips.json`，不会调用视频生成 API。要实际生成视频片段，需要加上：
+
+```bash
+python pipeline.py --chapter-name chapter_01 --story-file story.txt --style 动漫 --use-video-generator --video-provider zenmux
+```
+
+## 手动分步运行
+
+第一章：
+
+```bash
+python -m steps.step1_extract_characters --chapter-name chapter_01 --story-file story.txt --style 动漫
+python -m steps.step1b_generate_char_images --chapter-name chapter_01
+python -m steps.step2_extract_props --chapter-name chapter_01 --story-file story.txt
+python -m steps.step2b_generate_prop_images --chapter-name chapter_01
+python -m steps.step3_generate_storyboard --chapter-name chapter_01 --story-file story.txt
+python -m steps.step3b_audit_storyboard_assets --chapter-name chapter_01
+python -m steps.step4_generate_env_images --chapter-name chapter_01
+python -m steps.step5_generate_videos --chapter-name chapter_01 --use-video-generator --video-provider zenmux
+python -m steps.step6_concat_video --chapter-name chapter_01
+```
+
+后续章节：
+
+```bash
+python -m steps.step1_extract_characters --not-first-chapter --global-output-dir output --chapter-name chapter_02 --story-file story_2.txt --style 动漫
+python -m steps.step1b_generate_char_images --not-first-chapter --global-output-dir output --chapter-name chapter_02
+python -m steps.step2_extract_props --not-first-chapter --global-output-dir output --chapter-name chapter_02 --story-file story_2.txt
+python -m steps.step2b_generate_prop_images --not-first-chapter --global-output-dir output --chapter-name chapter_02
+python -m steps.step3_generate_storyboard --not-first-chapter --chapter-name chapter_02 --story-file story_2.txt
+python -m steps.step3b_audit_storyboard_assets --not-first-chapter --chapter-name chapter_02
+python -m steps.step4_generate_env_images --not-first-chapter --global-output-dir output --chapter-name chapter_02
+python -m steps.step5_generate_videos --not-first-chapter --chapter-name chapter_02 --use-video-generator --video-provider zenmux
+python -m steps.step6_concat_video --chapter-name chapter_02
+```
+
+## 语音流程
+
+语音流水线会从生成的视频片段中提取对白时间轴，为每个说话人分配可复用的 `voice_id`，使用 CosyVoice 生成克隆对白音频，并将对白混入每个分镜对应的背景音频中。
+
+请按照 CosyVoice 官方 GitHub README 安装 CosyVoice、下载 CosyVoice2 模型，并按需配置 vLLM：https://github.com/FunAudioLLM/CosyVoice
+
+Step 5 生成 `video_clips.json` 和 `videos/*.mp4` 后，可以按以下三步运行语音流程。
+
+Step 1：提取对白文本和时间轴：
+
+```bash
+python voice/extract_diaglogues_time.py output/chapter_01 --model gemini-3.1-pro-preview --asr-model voice/faster-whisper-large --device cpu --compute-type int8
+```
+
+在章节目录下准备声音模板：
+
+```text
+output/chapter_01/
+  voice_template/
+    dialogues.json
+    男主_少年.wav
+    女主_中年.wav
+```
+
+`voice_template/dialogues.json` 需要把每个模板 wav 文件名映射到该音频中真实说出的提示文本：
+
+```json
+[
+  {
+    "voice_id": "男主_少年",
+    "voice_text": "这里填写这段声音模板里真实说出的文字。"
+  }
+]
+```
+
+Step 2：生成 CosyVoice 对白音频，并和每个分镜的背景音频混合：
+
+```bash
+python voice/render_dialogue_audio.py output/chapter_01
+```
+
+Step 3：用混合后的对白音频替换每个生成视频的原始音频：
+
+```bash
+python voice/replace_video_audio.py output/chapter_01
+```
